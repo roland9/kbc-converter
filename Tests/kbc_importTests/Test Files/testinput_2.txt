@@ -1,0 +1,10 @@
+Date	Transaction	Money In	Money Out	Balance
+18 Jul 2018
+C-POS Vendor1 20180716
+-€4.00    €1,679.63
+19 Jul 2018
+C-POS Vendor with spaces 20180717
+€6.00    €1,683.63
+22 Aug 2019
+POS Seller LTD 20190820
+-€59.56    €1,689.63

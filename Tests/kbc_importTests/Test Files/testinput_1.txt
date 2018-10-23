@@ -1,0 +1,10 @@
+Invalid Header Line
+18 Jul 2018
+C-POS Vendor1 20180716
+-€4.00    €1,679.63
+18 Jul 2018
+C-POS Vendor with spaces 20180716
+-€6.00    €1,683.63
+18 Jul 2018
+POS Seller LTD 20180715
+-€59.56    €1,689.63
