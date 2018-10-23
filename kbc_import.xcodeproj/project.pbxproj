@@ -23,6 +23,7 @@
 /* Begin PBXBuildFile section */
 		AB022028217FCB5300620F69 /* testinput_1.txt in Resources */ = {isa = PBXBuildFile; fileRef = AB022025217FCB2900620F69 /* testinput_1.txt */; };
 		AB022029217FCB5300620F69 /* testinput_2.txt in Resources */ = {isa = PBXBuildFile; fileRef = AB022026217FCB2900620F69 /* testinput_2.txt */; };
+		AB02202B217FD87900620F69 /* ResourceReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB02202A217FD87900620F69 /* ResourceReader.swift */; };
 		OBJ_132 /* Await.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_24 /* Await.swift */; };
 		OBJ_133 /* ByteString.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_25 /* ByteString.swift */; };
 		OBJ_134 /* CStringArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_26 /* CStringArray.swift */; };
@@ -287,6 +288,7 @@
 /* Begin PBXFileReference section */
 		AB022025217FCB2900620F69 /* testinput_1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = testinput_1.txt; path = "Tests/kbc_importTests/Test Files/testinput_1.txt"; sourceTree = SOURCE_ROOT; };
 		AB022026217FCB2900620F69 /* testinput_2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = testinput_2.txt; path = "Tests/kbc_importTests/Test Files/testinput_2.txt"; sourceTree = SOURCE_ROOT; };
+		AB02202A217FD87900620F69 /* ResourceReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceReader.swift; sourceTree = "<group>"; };
 		OBJ_10 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		OBJ_106 /* libc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = libc.c; sourceTree = "<group>"; };
 		OBJ_108 /* clibc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = clibc.h; sourceTree = "<group>"; };
@@ -794,6 +796,7 @@
 				OBJ_14 /* Output.swift */,
 				OBJ_15 /* Reader.swift */,
 				OBJ_16 /* main.swift */,
+				AB02202A217FD87900620F69 /* ResourceReader.swift */,
 			);
 			name = kbc_import;
 			path = Sources/kbc_import;
@@ -1158,6 +1161,7 @@
 				OBJ_258 /* Arguments.swift in Sources */,
 				OBJ_259 /* Constants.swift in Sources */,
 				OBJ_260 /* Errors.swift in Sources */,
+				AB02202B217FD87900620F69 /* ResourceReader.swift in Sources */,
 				OBJ_261 /* Extensions.swift in Sources */,
 				OBJ_262 /* LineParser.swift in Sources */,
 				OBJ_263 /* Output.swift in Sources */,

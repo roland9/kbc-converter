@@ -17,6 +17,8 @@ final class kbc_importTests: XCTestCase {
 
     func testReturnsErrorWhenWrongHeaderLineInFile() throws {
 
+        let contents = try ResourceReader().read(resource: "testinput_1", ofType: "txt")
+
         XCTAssertTrue(runScript(filename: "testinput_1.txt")?
             .contains("wrong header line - expected specific format") ?? false)
     }
