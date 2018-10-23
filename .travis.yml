@@ -6,7 +6,9 @@ xcode_project: kbc_import.xcodeproj
 xcode_scheme: kbc_import
 xcode_destination: platform=macos
 
+env: SWIFT_VERSION=4.2
 install: swift package update
 script:
   - swift build
   - swift test
+
