@@ -1,7 +1,12 @@
 os: osx
-osx_image: xcode10
+wsx_image: xcode10
 
 language: swift
 xcode_project: kbc_import.xcodeproj
 xcode_scheme: kbc_import
 xcode_destination: platform=macos
+
+install: swift package update
+script:
+  - swift build
+  - swift test
